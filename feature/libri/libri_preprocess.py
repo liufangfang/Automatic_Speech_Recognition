@@ -14,8 +14,8 @@ from __future__ import unicode_literals
 import sys
 sys.path.append('../')
 
-from core.sigprocess import *
-from core.calcmfcc import calcfeat_delta_delta
+from feature.core.sigprocess import *
+from feature.core.calcmfcc import calcfeat_delta_delta
 import scipy.io.wavfile as wav
 import numpy as np
 import os
